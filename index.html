@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stride</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <!-- Logo goes here -->
+            <h1>Stride</h1>
+        </div>
+        <nav class="nav">
+            <a href="#create">Create Ticket</a>
+            <a href="#queue">Queue Status</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Stand in line, effortlessly</h2>
+            <p>Create your ticket and monitor your place in the queue with ease.</p>
+            <a href="#create" class="cta-button">Create a Ticket</a>
+        </section>
+
+        <section id="create" class="create-ticket">
+            <h3>Create a Ticket</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email" required>
+                <select required>
+                    <option value="">Select Event</option>
+                    <option value="event1">Event 1</option>
+                    <option value="event2">Event 2</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="queue" class="queue-status">
+            <h3>Queue Status</h3>
+            <p>Your position in line will appear here.</p>
+        </section>
+
+        <section id="about" class="about">
+            <h3>About Stride</h3>
+            <p>Stride is a modern platform to manage tickets and queues efficiently for events and appointments.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Stride ——— Smooth Birding </p>
+    </footer>
+</body>
+</html>
